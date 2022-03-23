@@ -1,0 +1,45 @@
+:root {
+    --primary-color: #00b887;
+    --secondary-color: #212429;
+    --white-color: #fff;
+    --text-color: #333;
+    --sub-color: #666;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.4;
+    font-size: 1.6rem;
+    color: var(--text-color);
+}
+
+.wrapper {
+    max-width: 120rem;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    width: 100%;
+}

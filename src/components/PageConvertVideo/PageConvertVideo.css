@@ -1,0 +1,87 @@
+.page-convert-video {
+    background-color: var(--secondary-color);
+    padding-top: 7rem;
+    padding-bottom: 7rem;
+}
+
+.page-convert-video__wrapper {
+    max-width: 90rem;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 1.5rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.page-convert-video__title {
+    font-size: 4rem;
+    font-weight: 600;
+    color: var(--primary-color);
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.page-convert-video__subtitle {
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: var(--white-color);
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+.page-convert-video__group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.5rem;
+}
+
+.page-convert-video__button {
+    padding: 1.6rem 3rem;
+    outline: none;
+    border-top-right-radius: .5rem;
+    border-bottom-right-radius: .5rem;
+    border: none;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 1.8rem;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.page-convert-video__button:hover {
+    opacity: .8;
+}
+
+.page-convert-video__button svg {
+    margin-right: 1rem;
+}
+
+.page-convert-video__input {
+    flex: 1;
+    padding: 1.6rem 3rem;
+    outline: none;
+    border-top-left-radius: .5rem;
+    border-bottom-left-radius: .5rem;
+    border: none;
+    background-color: var(--white-color);
+    font-size: 1.8rem;
+}
+
+.page-convert-video__text {
+    font-size: 1.4rem;
+    color: var(--sub-color);
+}
+
+.page-convert-video__text-span {
+    color: #aaa;
+}
+
+.page-convert-video__text-span:hover {
+    opacity: .8;
+}

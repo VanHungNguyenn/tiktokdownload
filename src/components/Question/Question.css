@@ -1,0 +1,39 @@
+.question {
+
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.question__title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.question__subtitle {
+    color: var(--sub-color);
+    margin: 0 7rem 6rem;
+    text-align: center;
+}
+
+.ant-collapse-item {
+    margin-bottom: 1rem;
+    border: 1px solid #eee;
+}
+
+.ant-collapse-header {
+    background-color: var(--primary-color);
+    font-weight: 700;
+    font-size: 1.6rem;
+
+    display: flex;
+}
+
+.ant-collapse {
+    border: none;
+}

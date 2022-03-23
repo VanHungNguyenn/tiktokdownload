@@ -1,0 +1,19 @@
+.header {
+    background-color: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    box-shadow: 0 0.5rem 1rem rgb(0 0 0 / 10%);
+    height: 6rem;
+
+    display: flex;
+    align-items: center;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header__logo {
+    width: 12rem;
+}

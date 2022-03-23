@@ -1,0 +1,66 @@
+.tutorial {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+}
+
+.tutorial__title {
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+    color: var(--text-color);
+    text-align: center;
+}
+
+.tutorial__subtitle {
+    color: var(--sub-color);
+    margin: 0 7rem 6rem;
+    text-align: center;
+}
+
+.tutorial__steps {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+}
+
+.tutorial__step {
+    width: calc(33.33% - 3rem);
+    padding: 0 3rem;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.tutorial__step-icon {
+    font-size: 5rem;
+    text-align: center;
+    color: var(--primary-color);
+    border-radius: 50%;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+    width: 8rem;
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 3rem;
+}
+
+.tutorial__step-title {
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    color: var(--primary-color);
+}
+
+.tutorial__desc {
+    color: var(--sub-color);
+    text-align: center;
+}
+
+.tutorial__desc span {
+    font-weight: bold;
+}
