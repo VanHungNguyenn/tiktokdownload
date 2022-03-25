@@ -1,36 +1,145 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './PageConvertVideo.css'
 import { FaDownload } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
+import { Tabs, Modal, Progress } from 'antd'
+
+const { TabPane } = Tabs
 
 const PageConvertVideo = () => {
+	const [visibleModal, setVisibleModal] = useState(false)
+	const [visibleBlockDownload, setVisibleBlockDownload] = useState(false)
+
+	const showModal = () => {
+		setVisibleModal(true)
+	}
+
+	const handleCancel = () => {
+		setVisibleModal(false)
+	}
+
+	const handleShowBlockDownload = () => {
+		setVisibleBlockDownload(!visibleBlockDownload)
+	}
+
 	return (
-		<div className='page-convert-video'>
-			<div className='page-convert-video__wrapper'>
-				<h1 className='page-convert-video__title'>
-					Tải video Youtube, chuyển nhạc Youtube sang MP3
-				</h1>
-				<p className='page-convert-video__subtitle'>
-					Download & convert videos from Youtube, facebook & 500 sites
-				</p>
-				<div className='page-convert-video__group'>
-					<input
-						type='text'
-						className='page-convert-video__input'
-						placeholder='Nhập link video cần tải'
-					/>
-					<button className='page-convert-video__button'>
-						<FaDownload /> Lấy link video
-					</button>
+		<>
+			<Modal
+				title='Outfit cực Fashion khiến các em gái mê #cris
+									#crisphan #crisdevilgamer'
+				visible={visibleModal}
+				onCancel={handleCancel}
+				footer={null}
+			>
+				<div className='modal__body'>
+					<Progress percent={75} />
+					<div className='modal__button list-file-video__item-button'>
+						<FaDownload /> Download
+					</div>
 				</div>
-				<p className='page-convert-video__text'>
-					Sử dụng dịch vụ này là bạn đồng ý với{' '}
-					<Link to='#' className='page-convert-video__text-span'>
-						Điều khoản Dịch vụ
-					</Link>
-				</p>
+			</Modal>
+			<div className='page-convert-video'>
+				<div className='page-convert-video__wrapper'>
+					<h1 className='page-convert-video__title'>
+						Tải video Youtube, chuyển nhạc Youtube sang MP3
+					</h1>
+					<p className='page-convert-video__subtitle'>
+						Download & convert videos from Youtube, facebook & 500
+						sites
+					</p>
+					<div className='page-convert-video__group'>
+						<input
+							type='text'
+							className='page-convert-video__input'
+							placeholder='Nhập link video cần tải'
+						/>
+						<button
+							className='page-convert-video__button'
+							onClick={handleShowBlockDownload}
+						>
+							<FaDownload /> Lấy link video
+						</button>
+					</div>
+					<p className='page-convert-video__text'>
+						Sử dụng dịch vụ này là bạn đồng ý với{' '}
+						<Link to='#' className='page-convert-video__text-span'>
+							Điều khoản Dịch vụ
+						</Link>
+					</p>
+
+					{visibleBlockDownload && (
+						<div className='page-download-video'>
+							<div className='page-download-video__title'>
+								Outfit cực Fashion khiến các em gái mê #cris
+								#crisphan #crisdevilgamer
+							</div>
+							<div className='page-download-video__group'>
+								<div className='page-download-video__group-left'>
+									<div className='page-download-video__group-image'>
+										<img
+											src='https://p16-sign-va.tiktokcdn.com/obj/tos-useast2a-p-0037-aiso/71c501d767fa40a99f5e7cb88232e851_1646808746?x-expires=1648202400&x-signature=w1aVCq6DTc4CR3HEVuE44DSJJFc%3D'
+											alt='video download'
+										/>
+									</div>
+									<div className='page-download-video__group-smalltitle'>
+										Outfit cực Fashion khiến các em gái mê
+										#cris #crisphan #crisdevilgamer
+									</div>
+								</div>
+								<div className='page-download-video__group-right'>
+									<Tabs defaultActiveKey='MP4' size='large'>
+										<TabPane tab='MP4' key='MP4'>
+											<div className='list-file-video'>
+												<div className='list-file-video__item'>
+													<div className='list-file-video__item-title'>
+														Watermark
+													</div>
+													<button
+														className='list-file-video__item-button'
+														onClick={showModal}
+													>
+														<FaDownload />
+														Tải về
+													</button>
+												</div>
+												<div className='list-file-video__item'>
+													<div className='list-file-video__item-title'>
+														Without Watermark
+													</div>
+													<button
+														className='list-file-video__item-button'
+														onClick={showModal}
+													>
+														<FaDownload />
+														Tải về
+													</button>
+												</div>
+											</div>
+										</TabPane>
+										<TabPane tab='MP3' key='MP3'>
+											<div className='list-file-video'>
+												<div className='list-file-video__item'>
+													<div className='list-file-video__item-title'>
+														192 kbps
+													</div>
+													<button
+														className='list-file-video__item-button'
+														onClick={showModal}
+													>
+														<FaDownload />
+														Tải về
+													</button>
+												</div>
+											</div>
+										</TabPane>
+									</Tabs>
+								</div>
+							</div>
+						</div>
+					)}
+				</div>
 			</div>
-		</div>
+		</>
 	)
 }
 

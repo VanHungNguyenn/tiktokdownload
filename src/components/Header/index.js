@@ -13,7 +13,7 @@ const Header = () => {
 					/>
 				</Link>
 
-				<div className='header__language'>Language</div>
+				<div className='header__language'>{/* Language */}</div>
 			</div>
 		</div>
 	)

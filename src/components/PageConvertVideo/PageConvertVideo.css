@@ -58,9 +58,11 @@
     opacity: .8;
 }
 
+
 .page-convert-video__button svg {
     margin-right: 1rem;
 }
+
 
 .page-convert-video__input {
     flex: 1;
@@ -76,6 +78,7 @@
 .page-convert-video__text {
     font-size: 1.4rem;
     color: var(--sub-color);
+    margin-bottom: 3rem;
 }
 
 .page-convert-video__text-span {
@@ -85,6 +88,108 @@
 .page-convert-video__text-span:hover {
     opacity: .8;
     color: #aaa;
+}
+
+.page-download-video {
+    color: white;
+}
+
+.page-download-video__title {
+    font-size: 2.6rem;
+    font-weight: 600;
+    margin-bottom: 2rem;
+}
+
+.page-download-video__group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.page-download-video__group-left {
+    width: calc(33.33% - 2rem);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.page-download-video__group-image {
+    margin-bottom: 1rem;
+}
+
+.page-download-video__group-right {
+    width: calc(66.66% - 2rem);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+    border-color: var(--primary-color);
+    color: var(--primary-color);
+}
+
+.ant-tabs-tab-btn {
+    color: #fff;
+}
+
+.list-file-video {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.list-file-video__item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    padding: 1rem 2rem;
+    border: 1px solid #ccc;
+    border-radius: .5rem;
+}
+
+.list-file-video__item-title {
+    font-size: 1.6rem;
+}
+
+.list-file-video__item-button {
+    border: none;
+    outline: none;
+
+    padding: .8rem 1.5rem;
+    background-color: var(--primary-color);
+
+    display: flex;
+    align-items: center;
+
+    cursor: pointer;
+}
+
+
+
+.list-file-video__item-button:hover {
+    opacity: .8;
+}
+
+.list-file-video__item-button svg {
+    margin-right: .5rem;
+}
+
+.ant-modal-footer .ant-btn {
+    background: var(--primary-color);
+}
+
+.modal__body {
+    display: flex;
+    flex-direction: column;
+
+    text-align: center;
+}
+
+.modal__button {
+    margin-top: 3rem;
+    display: inline-block;
+    margin: 3rem auto 0;
 }
 
 @media screen and (max-width: 1099px) {}
