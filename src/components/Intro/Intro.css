@@ -50,3 +50,27 @@
     color: var(--sub-color);
     margin-top: auto;
 }
+
+@media screen and (max-width: 767px) {
+    .intro__list {
+        flex-direction: column;
+    }
+
+    .intro__item {
+        width: 100%;
+        padding: 4rem 1rem;
+        margin-bottom: 2rem;
+        box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.1);
+    }
+
+    .intro__description {
+        margin: 0 1rem 2rem;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .intro {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}

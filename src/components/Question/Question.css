@@ -37,3 +37,16 @@
 .ant-collapse {
     border: none;
 }
+
+@media screen and (max-width: 767px) {
+    .question__subtitle {
+        margin: 0 1rem 2rem;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .question {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}

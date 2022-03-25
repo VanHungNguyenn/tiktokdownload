@@ -64,3 +64,26 @@
 .tutorial__desc span {
     font-weight: bold;
 }
+
+@media screen and (max-width: 767px) {
+    .tutorial__subtitle {
+        margin: 0 1rem 2rem;
+    }
+
+    .tutorial__steps {
+        flex-direction: column;
+    }
+
+    .tutorial__step {
+        width: 100%;
+        padding: 0 1rem;
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (max-width: 479px) {
+    .tutorial {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+}

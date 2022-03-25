@@ -84,4 +84,43 @@
 
 .page-convert-video__text-span:hover {
     opacity: .8;
+    color: #aaa;
+}
+
+@media screen and (max-width: 1099px) {}
+
+@media screen and (max-width: 991px) {
+    /* start of large tablet styles */
+}
+
+@media screen and (max-width: 767px) {
+    .page-convert-video__group {
+        flex-direction: column;
+    }
+
+    .page-convert-video__input {
+        width: 100%;
+        border-radius: .5rem;
+        margin-bottom: 1rem;
+        font-size: 1.4rem;
+    }
+
+    .page-convert-video__button {
+        border-radius: .5rem;
+        font-size: 1.4rem;
+    }
+
+
+}
+
+@media screen and (max-width: 479px) {
+    .page-convert-video__title {
+        font-size: 3.2rem;
+    }
+
+    .page-convert-video {
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+
 }
