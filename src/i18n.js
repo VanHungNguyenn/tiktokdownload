@@ -13,12 +13,15 @@ i18n.use(Backend)
 		interpolation: {
 			escapeValue: false,
 		},
-		lng: document.querySelector('html').lang,
+		whitelist: ['en', 'fr', 'vi'],
 		backend: {
-			loadPath: '/assets/locales/{{lng}}/translation.json',
+			loadPath: '/locales/{{lng}}/{{ns}}.json',
 		},
-		react: {
-			useSuspense: false,
+		detection: {
+			order: ['path', 'cookie', 'htmlTag', 'localStorage', 'subdomain'],
+			caches: ['cookie', 'localStorage'],
+			lookupFromPathIndex: 0,
+			checkWhitelist: true,
 		},
 	})
 

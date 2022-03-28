@@ -1,0 +1,26 @@
+{
+	"title": "Tải xuống video tiktok, Chuyển đổi tiktok sang MP3, Chuyển đổi và tải xuống video tiktok ở định dạng MP3.",
+	"page-convert-video__title": "Tải video Youtube, chuyển nhạc Youtube sang MP3",
+	"page-convert-video__subtitle": "Tải xuống và chuyển đổi video từ Youtube, facebook và 500 trang web",
+	"page-convert-video__input": "Nhập link video cần tải",
+	"page-convert-video__button": "Lấy link video",
+	"page-convert-video__text": "Sử dụng dịch vụ này là bạn đồng ý với ",
+	"page-convert-video__text-span": "Điều khoản Dịch vụ",
+
+	"intro__title": "Ytop1.com - Công cụ hỗ trợ tải Video YouTube, Downloader YouTube MP3 Trực Tuyến Miễn Phí",
+	"intro__description": "Với Ytop1 bạn có thể tải tất cả các video trên Youtube hoặc chuyển đổi video Youtube sang MP3 để làm nhạc chuông điện thoại nhanh chóng. Đơn giản bạn chỉ cần dán đường dẫn video Youtube vào vùng chuyển đổi, lựa chọn định dạng (mp4, webm, mp3, m4a,...) và chất lượng (240p, 360p, 480p, 710p, 1080p, FullHD ...) mong muốn. Ytop1 có thể làm tất cả mọi thứ để bạn sở hữu những video hay nhất.",
+	"intro__item": {
+		"1": {
+			"intro__item-title": "Công cụ hỗ trợ tải video trên YouTube nhiều định dạng",
+			"intro__item-desc": "Ytop1 là một trình tải video Youtube hoàn hảo. Nó giúp bạn tải video từ Youtube dưới dạng MP3, MP4 ... bao gồm cả chất lượng FullHD. Công cụ tải xuống video Youtube miễn phí sẽ hiển thị cho bạn kích thước file trước khi lưu."
+		},
+		"2": {
+			"intro__item-title": "Tải Youtube MP3, tách nhạc MP3 từ Youtube",
+			"intro__item-desc": "Trong trường hợp có một số bản nhạc tuyệt vời trên Youtube, bạn có thể sử dụng Ytop1 Youtube to MP3 để trích xuất MP3 (tách nhạc) từ video Youtube, tải về thiết bị và nghe khi không có mạng."
+		},
+		"3": {
+			"intro__item-title": "Cập nhật và Nâng cấp hệ thống thường xuyên",
+			"intro__item-desc": "Ytop1 luôn hoạt động trong khi các phần mềm miễn phí trực tuyến khác không hoạt động, mọi vấn đề mới sẽ được khắc phục thường xuyên trong vòng 24h, để mang lại cho người dùng những gì tốt đẹp nhất"
+		}
+	}
+}

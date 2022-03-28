@@ -3,12 +3,15 @@ import './PageConvertVideo.css'
 import { FaDownload } from 'react-icons/fa'
 import { Link } from 'react-router-dom'
 import { Tabs, Modal, Progress } from 'antd'
+import { useTranslation } from 'react-i18next'
 
 const { TabPane } = Tabs
 
 const PageConvertVideo = () => {
 	const [visibleModal, setVisibleModal] = useState(false)
 	const [visibleBlockDownload, setVisibleBlockDownload] = useState(false)
+
+	const { t } = useTranslation()
 
 	const showModal = () => {
 		setVisibleModal(true)
@@ -40,7 +43,7 @@ const PageConvertVideo = () => {
 			</Modal>
 			<div className='page-convert-video'>
 				<div className='page-convert-video__wrapper'>
-					<h1 className='page-convert-video__title'>
+					{/* <h1 className='page-convert-video__title'>
 						Tải video Youtube, chuyển nhạc Youtube sang MP3
 					</h1>
 					<p className='page-convert-video__subtitle'>
@@ -64,6 +67,32 @@ const PageConvertVideo = () => {
 						Sử dụng dịch vụ này là bạn đồng ý với{' '}
 						<Link to='#' className='page-convert-video__text-span'>
 							Điều khoản Dịch vụ
+						</Link>
+					</p> */}
+
+					<h1 className='page-convert-video__title'>
+						{t('page-convert-video__title')}
+					</h1>
+					<p className='page-convert-video__subtitle'>
+						{t('page-convert-video__subtitle')}
+					</p>
+					<div className='page-convert-video__group'>
+						<input
+							type='text'
+							className='page-convert-video__input'
+							placeholder={t('page-convert-video__input')}
+						/>
+						<button
+							className='page-convert-video__button'
+							onClick={handleShowBlockDownload}
+						>
+							<FaDownload /> {t('page-convert-video__button')}
+						</button>
+					</div>
+					<p className='page-convert-video__text'>
+						{t('page-convert-video__text')}
+						<Link to='#' className='page-convert-video__text-span'>
+							{t('page-convert-video__text-span')}
 						</Link>
 					</p>
 

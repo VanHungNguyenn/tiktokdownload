@@ -1,11 +1,52 @@
 import React from 'react'
 import './Intro.css'
 import { BsFilm, BsClockFill, BsShieldFillCheck } from 'react-icons/bs'
+import { useTranslation } from 'react-i18next'
 
 const Intro = () => {
+	const { t } = useTranslation()
+
 	return (
 		<div className='intro wrapper'>
-			<h2 className='intro__title'>
+			<h2 className='intro__title'>{t('intro__title')}</h2>
+			<p className='intro__description'>{t('intro__description')}</p>
+			<div className='intro__list'>
+				<div className='intro__item'>
+					<div className='intro__item-icon'>
+						<BsClockFill />
+					</div>
+					<div className='intro__item-title'>
+						{t('intro__item.1.intro__item-title')}
+					</div>
+					<div className='intro__item-desc'>
+						{t('intro__item.1.intro__item-desc')}
+					</div>
+				</div>
+				<div className='intro__item'>
+					<div className='intro__item-icon'>
+						<BsFilm />
+					</div>
+					<div className='intro__item-title'>
+						{t('intro__item.2.intro__item-title')}
+					</div>
+					<div className='intro__item-desc'>
+						{t('intro__item.2.intro__item-desc')}
+					</div>
+				</div>
+				<div className='intro__item'>
+					<div className='intro__item-icon'>
+						<BsShieldFillCheck />
+					</div>
+					<div className='intro__item-title'>
+						{t('intro__item.3.intro__item-title')}
+					</div>
+					<div className='intro__item-desc'>
+						{t('intro__item.3.intro__item-desc')}
+					</div>
+				</div>
+			</div>
+
+			{/* <h2 className='intro__title'>
 				Ytop1.com - Công cụ hỗ trợ tải Video YouTube, Downloader YouTube
 				MP3 Trực Tuyến Miễn Phí
 			</h2>
@@ -62,7 +103,7 @@ const Intro = () => {
 						người dùng những gì tốt đẹp nhất
 					</div>
 				</div>
-			</div>
+			</div> */}
 		</div>
 	)
 }
