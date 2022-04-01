@@ -1,26 +1,26 @@
 {
-	"title": "Tải xuống video tiktok, Chuyển đổi tiktok sang MP4, Chuyển đổi và tải xuống video tiktok ở định dạng MP4.",
-	"page-convert-video__title": "Tải video Tiktok, chuyển video Tiktok sang MP4",
-	"page-convert-video__subtitle": "Tải xuống và chuyển đổi video từ Tiktok",
+	"title": "Tải video tiktok không có logo, hình mờ, watermark miễn phí",
+	"page-convert-video__title": "Công cụ tải video tiktok",
+	"page-convert-video__subtitle": "Không logo, hình mờ, watermark",
 	"page-convert-video__input": "Nhập link video cần tải",
 	"page-convert-video__button": "Lấy link video",
 	"page-convert-video__text": "Sử dụng dịch vụ này là bạn đồng ý với ",
 	"page-convert-video__text-span": "Điều khoản Dịch vụ",
 
-	"intro__title": "Upgo.io - Công cụ hỗ trợ tải video Tiktok, Downloader Tiktok Trực Tuyến Miễn Phí",
-	"intro__description": "Với Upgo, bạn có thể tải tất cả các video trên Tiktok hoặc chuyển đổi video Tiktok sang MP4 để sử dụng. Đơn giản bạn chỉ cần dán đường dẫn video Tiktok vào vùng chuyển đổi, lựa chọn định dạng (mp4, webm, mp3, m4a,...) và chất lượng (240p, 360p, 480p, 710p, 1080p, FullHD ...) mong muốn. Upgo có thể làm tất cả mọi thứ để bạn sở hữu những video hay nhất.",
+	"intro__title": "{{domain}} - Công cụ hỗ trợ tải video tiktok không logo, hình mờ, watermark trực tuyến miễn phí",
+	"intro__description": "Với {{domain}}, bạn không cần phải cài đặt bất kỳ phần mềm nào trên máy tính hoặc điện thoại, tất cả những gì bạn cần là một liên kết đến video TikTok và tất cả quá trình xử lý được thực hiện ở phía máy chủ của chúng tôi, chỉ với một cú nhấp chuột là bạn đã có thể tải xuống video lưu trữ trên thiết bị của bạn.",
 	"intro__item": {
 		"1": {
-			"intro__item-title": "Công cụ hỗ trợ tải video trên Tiktok nhiều định dạng",
-			"intro__item-desc": "Upgo là một trình tải video Tiktok hoàn hảo. Nó giúp bạn tải video từ Tiktok dưới dạng MP4 ... bao gồm cả chất lượng FullHD. Công cụ tải xuống video Tiktok miễn phí sẽ hiển thị cho bạn kích thước file trước khi lưu."
+			"intro__item-title": "Hỗ trợ download video tiktok trên nhiều thiết bị",
+			"intro__item-desc": "{{domain}} là một trình hỗ trợ download video tiktok trên mọi loại thiết bị: mobile, PC, tablet,... (Tiktok chỉ cho phép download bằng điện thoại)"
 		},
 		"2": {
-			"intro__item-title": "Tải video Tiktok, tách nhạc MP4 từ Tiktok",
-			"intro__item-desc": "Trong trường hợp có một số bản nhạc tuyệt vời trên Tiktok, bạn có thể sử dụng Ytop1 Tiktok to MP3 để trích xuất MP3 (tách nhạc) từ video Tiktok, tải về thiết bị và nghe khi không có mạng."
+			"intro__item-title": "Tải video Tiktok không logo, hình mờ, watermark",
+			"intro__item-desc": "Video tải xuống sẽ không bị dính logo Tiktok và User ID ở trên và dưới video như cách tải thông thường."
 		},
 		"3": {
-			"intro__item-title": "Cập nhật và Nâng cấp hệ thống thường xuyên",
-			"intro__item-desc": "Upgo luôn hoạt động trong khi các phần mềm miễn phí trực tuyến khác không hoạt động, mọi vấn đề mới sẽ được khắc phục thường xuyên trong vòng 24h, để mang lại cho người dùng những gì tốt đẹp nhất"
+			"intro__item-title": "Cập nhật và nâng cấp hệ thống thường xuyên",
+			"intro__item-desc": "{{domain}} luôn hoạt động trong khi các phần mềm khác không hoạt động, mọi vấn đề mới sẽ được khắc phục thường xuyên trong vòng 24h, để mang lại cho người dùng những gì tốt đẹp nhất."
 		}
 	}
 }

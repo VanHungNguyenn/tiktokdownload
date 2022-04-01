@@ -74,7 +74,9 @@ const PageConvertVideo = () => {
 						{t('page-convert-video__title')}
 					</h1>
 					<p className='page-convert-video__subtitle'>
-						{t('page-convert-video__subtitle')}
+						{t('page-convert-video__subtitle', {
+							hello: 'Haha',
+						})}
 					</p>
 					<div className='page-convert-video__group'>
 						<input

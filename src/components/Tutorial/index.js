@@ -23,9 +23,8 @@ const Tutorial = () => {
 						BƯỚC 1: SAO CHÉP URL
 					</div>
 					<div className='tutorial__desc'>
-						Mở liên kết Youtube và{' '}
-						<span>sao chép đường dẫn video</span> bạn muốn tải về
-						thiết bị
+						Mở liên kết Youtube và sao chép đường dẫn video bạn muốn
+						tải về thiết bị
 					</div>
 				</div>
 				<div className='tutorial__step'>
@@ -36,9 +35,8 @@ const Tutorial = () => {
 						BƯỚC 2: CHỌN CHẤT LƯỢNG
 					</div>
 					<div className='tutorial__desc'>
-						<span>Dán URL video</span> Youtube và nhấn{' '}
-						<span>"Lấy link video"</span>, chọn chất lượng hoặc định
-						dạng file tương ứng
+						Dán URL video Youtube và nhấn "Lấy link video", chọn
+						chất lượng hoặc định dạng file tương ứng
 					</div>
 				</div>
 				<div className='tutorial__step'>
@@ -49,9 +47,8 @@ const Tutorial = () => {
 						BƯỚC 3: TẢI VIDEO TỪ YOUTUBE HOẶC YOUTUBE TO MP3
 					</div>
 					<div className='tutorial__desc'>
-						Nhấn <span>"Tải file MP3"</span> hoặc{' '}
-						<span>"Tải xuống video HD/4K"</span> để lưu file trên
-						thiết bị của bạn
+						Nhấn "Tải file MP3" hoặc "Tải xuống video HD/4K" để lưu
+						file trên thiết bị của bạn
 					</div>
 				</div>
 			</div>

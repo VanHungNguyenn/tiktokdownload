@@ -1,13 +1,13 @@
 .tutorial {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 8rem;
+    padding-bottom: 8rem;
 }
 
 .tutorial__title {
-    font-size: 2.4rem;
-    font-weight: 700;
+    font-size: 4rem;
+    font-weight: 500;
     margin-bottom: 1rem;
-    color: var(--text-color);
+    color: var(--primary-color);
     text-align: center;
 }
 
@@ -15,6 +15,7 @@
     color: var(--sub-color);
     margin: 0 7rem 6rem;
     text-align: center;
+    font-style: italic;
 }
 
 .tutorial__steps {
@@ -24,7 +25,7 @@
 }
 
 .tutorial__step {
-    width: calc(33.33% - 3rem);
+    width: calc(33.33% - 2rem);
     padding: 0 3rem;
 
     display: flex;
@@ -48,7 +49,7 @@
 }
 
 .tutorial__step-title {
-    font-size: 1.8rem;
+    font-size: 2.2rem;
     text-transform: uppercase;
     font-weight: bold;
     margin-bottom: 1.5rem;
@@ -67,7 +68,7 @@
 
 @media screen and (max-width: 767px) {
     .tutorial__subtitle {
-        margin: 0 1rem 2rem;
+        margin: 0 1rem 4rem;
     }
 
     .tutorial__steps {
@@ -78,12 +79,5 @@
         width: 100%;
         padding: 0 1rem;
         margin-bottom: 2rem;
-    }
-}
-
-@media screen and (max-width: 479px) {
-    .tutorial {
-        padding-top: 4rem;
-        padding-bottom: 4rem;
     }
 }
