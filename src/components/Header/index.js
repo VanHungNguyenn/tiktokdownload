@@ -12,10 +12,10 @@ const Header = () => {
 	// get currentLang = path
 	const currentLang = window.location.pathname.split('/')[1] || 'en'
 
-	console.log({ currentLang })
-
 	useEffect(() => {
 		document.title = t('title')
+		// change lang htmlTag
+		document.querySelector('html').setAttribute('lang', currentLang)
 	}, [currentLang, t])
 
 	const menu = (

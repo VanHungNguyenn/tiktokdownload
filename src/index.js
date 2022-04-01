@@ -7,11 +7,12 @@ import './assets/css/index.css'
 
 import './i18n'
 
+import Loading from './components/Loading'
 import App from './App'
 
 ReactDOM.render(
 	<React.StrictMode>
-		<Suspense fallback={<div>Loading...</div>}>
+		<Suspense fallback={<Loading />}>
 			<App />
 		</Suspense>
 	</React.StrictMode>,

@@ -45,7 +45,13 @@ const Footer = () => {
 			{/* Design by */}
 			<div className='footer__design-by'>
 				Design by{' '}
-				<a href='https://www.facebook.com/vanhung.dev'>VanHungNguyen</a>
+				<a
+					href='https://www.facebook.com/vanhung.dev'
+					target='_blank'
+					rel='noreferrer'
+				>
+					VanHungNguyen
+				</a>
 			</div>
 		</footer>
 	)
