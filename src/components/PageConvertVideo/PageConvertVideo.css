@@ -212,4 +212,17 @@
     }
 }
 
-@media screen and (max-width: 479px) {}
+@media screen and (max-width: 479px) {
+    .page-download-video__group {
+        flex-direction: column;
+    }
+
+    .page-download-video__group-left {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .page-download-video__group-right {
+        width: 100%;
+    }
+}

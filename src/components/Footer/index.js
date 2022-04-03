@@ -1,8 +1,11 @@
 import React from 'react'
 import './Footer.css'
 import { Link } from 'react-router-dom'
+import { useTranslation } from 'react-i18next'
 
 const Footer = () => {
+	const { t } = useTranslation()
+
 	return (
 		<footer className='footer'>
 			<Link to='/' className='footer__logo'>
@@ -14,27 +17,17 @@ const Footer = () => {
 			<div className='footer__list'>
 				<div className='footer__list-item'>
 					<Link to='#' className='footer__list-item-link'>
-						Tải Video Youtube
+						{t('footer__list.1')}
 					</Link>
 				</div>
 				<div className='footer__list-item'>
 					<Link to='#' className='footer__list-item-link'>
-						Chuyển đổi video MP3 Youtube
+						{t('footer__list.2')}
 					</Link>
 				</div>
 				<div className='footer__list-item'>
 					<Link to='#' className='footer__list-item-link'>
-						Chính sách riêng tư
-					</Link>
-				</div>
-				<div className='footer__list-item'>
-					<Link to='#' className='footer__list-item-link'>
-						Điều khoản sử dụng
-					</Link>
-				</div>
-				<div className='footer__list-item'>
-					<Link to='#' className='footer__list-item-link'>
-						Liên hệ
+						{t('footer__list.3')}
 					</Link>
 				</div>
 			</div>

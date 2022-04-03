@@ -1,26 +1,82 @@
 {
-	"title": "Download Video tiktok, Convert tiktok to MP3, Convert and download tiktok video in MP3 format.",
-	"page-convert-video__title": "Download Youtube videos, convert Youtube music to MP3",
-	"page-convert-video__subtitle": "Download and convert videos from Youtube, facebook and 500+ websites",
+	"title": "Download tiktok videos without logo, watermark for free",
+	"page-convert-video__title": "Tool to download tiktok videos",
+	"page-convert-video__subtitle": "Video without logo, watermark",
 	"page-convert-video__input": "Enter the video link to download",
 	"page-convert-video__button": "Get video link",
 	"page-convert-video__text": "By using this service, you agree to ",
 	"page-convert-video__text-span": "Terms of Service",
 
-	"intro__title": "Ytop1.com - YouTube Video Downloader, YouTube MP3 Downloader Free Online",
-	"intro__description": "With Ytop1 you can download all YouTube videos or convert Youtube videos to MP3 to make phone ringtones quickly. Simply paste the Youtube video link into the conversion area, choose the format (mp4, webm, mp3, m4a,...) and quality (240p, 360p, 480p, 710p, 1080p, FullHD... ) desire. Ytop1 can do everything for you to have the best videos.",
+	"intro__title": "{{domain}} - Tool to support downloading tiktok videos without logo, watermark online for free",
+	"intro__description": "With {{domain}} you don't need to install any software on your computer or phone, all you need is a link to the TikTok video and all the processing is done on the side. our server, with just one click you can download videos stored on your device.",
 	"intro__item": {
 		"1": {
-			"intro__item-title": "Tool to support downloading videos on YouTube in many formats",
-			"intro__item-desc": "Ytop1 is a perfect Youtube video downloader. It helps you to download videos from Youtube in MP3, MP4 ... including FullHD quality. Free Youtube video downloader will show you the file size before saving."
+			"intro__item-title": "Support downloading tiktok videos on many devices",
+			"intro__item-desc": "{{domain}} is a supporter to download tiktok videos on all devices: mobile, PC, tablet,... (Tiktok only allows downloading by phone)"
 		},
 		"2": {
-			"intro__item-title": "Download Youtube MP3, extract MP3 music from Youtube",
-			"intro__item-desc": "In case there is some great music on Youtube, you can use Ytop1 Youtube to MP3 to extract MP3 (music extractor) from Youtube videos, download to your device and listen offline."
+			"intro__item-title": "Download Tiktok videos without logo, watermark",
+			"intro__item-desc": "The downloaded video will not be stuck with the Tiktok logo and User ID above and below the video like a normal download."
 		},
 		"3": {
-			"intro__item-title": "Update and Upgrade the system regularly",
-			"intro__item-desc": "Ytop1 always works while other online freeware does not, any new problems will be fixed regularly within 24h, to bring users the best."
+			"intro__item-title": "Update and upgrade the system regularly",
+			"intro__item-desc": "{{domain}} always works while other software does not, any new problems will be fixed regularly within 24h, to bring users the best."
 		}
+	},
+
+	"tutorial__title": "Instructions to download tiktok videos online",
+	"tutorial__subtitle": "Easily download tiktok videos to your device with three simple steps",
+	"tutorial__steps": {
+		"1": {
+			"tutorial__step-title": "Step 1: Copy the URL",
+			"tutorial__desc": "Open the tiktok link and copy the video link you want to download to your device"
+		},
+		"2": {
+			"tutorial__step-title": "Step 2: Choose quality",
+			"tutorial__desc": "Paste the tiktok video URL and press \"Get video link\", choose the corresponding file format"
+		},
+		"3": {
+			"tutorial__step-title": "Step 3: Download the video to your device",
+			"tutorial__desc": "Press \"Download\" to save the file on your device"
+		}
+	},
+
+	"question__title": "Frequently asked questions about using {{domain}} download tiktok videos",
+	"question__subtitle": "Answer questions when using {{domain}} to download tiktok videos to your device",
+	"question__list": {
+		"1": {
+			"question__item-ask": "Why you should use {{domain}}",
+			"question__item-answer": "{{domain}} is the fastest online tiktok video downloader available on many platforms such as PC, tablet and mobile. {{domain}} does not require login, provide information or appear ads like other websites... The interface is simple, intuitive and easy to use. That's why you should use {{domain}}."
+		},
+		"2": {
+			"question__item-ask": "Do I have to install extra software to download tiktok videos?",
+			"question__item-answer": "The answer is no, You do not have to install any software and the system does not ask when you use {{domain}}. Our online support tool is completely free. As long as you have a stable internet connection, provide the tiktok video URL, you will immediately receive a high quality tiktok video download link"
+		},
+		"3": {
+			"question__item-ask": "What formats does {{domain}} support downloading tiktok?",
+			"question__item-answer": "We support users to download tiktok videos with MP4, AVI, FLV, ... with the best quality as well as the advantages of no logo, no watermark, watermark... completely free, unlimited limited number of uses. {{domain}} is recognized as the number 1 tool to support downloading videos from tiktok today by millions of users around the world"
+		},
+		"4": {
+			"question__item-ask": "What platforms does {{domain}} support on?",
+			"question__item-answer": "We've built {{domain}} for Windows, macOS, Android, iOS, and Ipad so you can use it on your favorite operating system. There are no restrictions on the platform using {{domain}}."
+		},
+		"5": {
+			"question__item-ask": "Can I download multiple tiktok videos at the same time?",
+			"question__item-answer": "{{domain}} does not limit the number of downloads, size, length and download files at the same time. That means you can download multiple tiktok videos at the same time. Download tiktok videos at top speed without any limit."
+		},
+		"6": {
+			"question__item-ask": "Does {{domain}} store video data downloaded from tiktok?",
+			"question__item-answer": "{{domain}} absolutely does not store or keep a copy of any video you have downloaded from tiktok, the tool is only responsible for increasing the quality of the file and providing the download link for the user. Therefore, we do not track users' download history, so the use of {{domain}} is completely confidential, ensuring each person's privacy."
+		},
+		"7": {
+			"question__item-ask": "When tiktok video download fails, where can I get support?",
+			"question__item-answer": "During the process of downloading videos from tiktok, you need further assistance, please contact us via email, messenger or zalo to receive the fastest support."
+		}
+	},
+
+	"footer__list": {
+		"1": "Privacy policy",
+		"2": "Terms of use",
+		"3": "Contact us"
 	}
 }

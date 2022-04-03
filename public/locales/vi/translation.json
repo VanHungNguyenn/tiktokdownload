@@ -22,5 +22,61 @@
 			"intro__item-title": "Cập nhật và nâng cấp hệ thống thường xuyên",
 			"intro__item-desc": "{{domain}} luôn hoạt động trong khi các phần mềm khác không hoạt động, mọi vấn đề mới sẽ được khắc phục thường xuyên trong vòng 24h, để mang lại cho người dùng những gì tốt đẹp nhất."
 		}
+	},
+
+	"tutorial__title": "Hướng dẫn tải video tiktok trực tuyến",
+	"tutorial__subtitle": "Dễ dàng tải video tiktok về máy với ba bước đơn giản",
+	"tutorial__steps": {
+		"1": {
+			"tutorial__step-title": "Bước 1: Sao chép URL",
+			"tutorial__desc": "Mở liên kết tiktok và sao chép đường dẫn video bạn muốn tải về thiết bị"
+		},
+		"2": {
+			"tutorial__step-title": "Bước 2: Chọn chất lượng",
+			"tutorial__desc": "Dán URL video tiktok và nhấn \"Lấy link video\", chọn định dạng file tương ứng"
+		},
+		"3": {
+			"tutorial__step-title": "Bước 3: Tải video về máy",
+			"tutorial__desc": "Nhấn \"Tải về\" để lưu file trên thiết bị của bạn"
+		}
+	},
+
+	"question__title": "Các câu hỏi thường gặp khi sử dụng {{domain}} tải video tiktok",
+	"question__subtitle": "Giải đáp các thắc mắc khi sử dụng {{domain}} tải video tiktok về máy",
+	"question__list": {
+		"1": {
+			"question__item-ask": "Tại sao bạn nên sử dụng {{domain}}",
+			"question__item-answer": "{{domain}} là công cụ hỗ trợ tải video tiktok trực tuyến nhanh nhất hiện nay trên nhiều nền tảng như như PC, tablet and mobile. {{domain}} không yêu cầu đăng nhập, cung cấp thông tin hoặc xuất hiện quảng cáo như những website khác... Giao diện đơn giản, trực quan và dễ dàng sử dụng. Đó chính là lý do bạn nên sử dụng {{domain}}."
+		},
+		"2": {
+			"question__item-ask": "Có phải cài đặt thêm phần mềm để tải video tiktok không?",
+			"question__item-answer": "Câu trả lời là không, Bạn không phải cài đặt bất kì phần mềm nào và hệ thống cũng không yêu cầu khi bạn sử dụng {{domain}}. Công cụ hỗ trợ trực tuyến của chúng tôi hoàn toàn free. Chỉ cần đường truyền kết nối internet ổn định, cung cấp URL video tiktok, bạn sẽ nhận được ngay liên kết tải video tiktok chất lượng cao"
+		},
+		"3": {
+			"question__item-ask": "{{domain}} hỗ trợ tải tiktok những định dạng nào?",
+			"question__item-answer": "Chúng tôi hỗ trợ người dùng tải video tiktok với những định dạng MP4, AVI, FLV,... với chất lượng tốt nhất cũng như những ưu điểm không logo, không hình mờ, watermark... hoàn toàn miễn phí, không giới hạn số lần sử dụng. {{domain}} được công nhận là công cụ hỗ trợ tải video từ tiktok số 1 hiện nay bởi hàng triệu người dùng trên khắp thế giới"
+		},
+		"4": {
+			"question__item-ask": "{{domain}} hỗ trợ sử dụng trên những nền tảng nào?",
+			"question__item-answer": "Chúng tôi đã xây dựng {{domain}} cho cả Windows, macOS, Android, iOS và Ipad để bạn có thể sử dụng trên hệ điều hành yêu thích của mình. Không có bất kỳ hạn chế nào đối với nền tảng sử dụng {{domain}}."
+		},
+		"5": {
+			"question__item-ask": "Tôi có thể tải song song nhiều video tiktok cùng lúc không?",
+			"question__item-answer": "{{domain}} không giới hạn số lượt tải, dung lượng, độ dài và file tải trong cùng một thời điểm. Nghĩa là bạn có thể tải cùng lúc nhiều video tiktok. Tải tiktok video ở tốc độ cao nhất mà không có bất kỳ giới hạn nào."
+		},
+		"6": {
+			"question__item-ask": "{{domain}} có lưu trữ dữ liệu video tải về từ tiktok hay không?",
+			"question__item-anwser": "{{domain}} tuyệt đối Không lưu trữ hoặc giữ bản sao của bất kỳ video bạn đã tải video từ tiktok, công cụ chỉ có nhiệm vụ tăng chất lượng file và cung cấp liên kết tải cho người dùng. Vì vậy, chúng tôi Không theo dõi lịch sử tải xuống của người dùng nên việc sử dụng {{domain}} là hoàn toàn tuyệt mật, đảm bảo quyền riêng tư của mỗi người."
+		},
+		"7": {
+			"question__item-ask": "Khi tải video tiktok bị lỗi, tôi có thể nhận hỗ trợ từ đâu?",
+			"question__item-answer": "Trong quá trình tải video từ tiktok, bạn cần hỗ trợ thêm, vui lòng liên hệ với chúng tôi qua địa chỉ email, messenger hoặc zalo để nhận sự hỗ trợ nhanh nhất."
+		}
+	},
+
+	"footer__list": {
+		"1": "Chính sách riêng tư",
+		"2": "Điều khoản sử dụng",
+		"3": "Liên hệ"
 	}
 }

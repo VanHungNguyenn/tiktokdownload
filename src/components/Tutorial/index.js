@@ -3,28 +3,25 @@ import './Tutorial.css'
 import { BiCopy } from 'react-icons/bi'
 import { GiClick } from 'react-icons/gi'
 import { AiOutlineCloudDownload } from 'react-icons/ai'
+import { useTranslation } from 'react-i18next'
 
 const Tutorial = () => {
+	const { t } = useTranslation()
+
 	return (
 		<div className='tutorial wrapper'>
-			<div className='tutorial__title'>
-				Cách tải Video YouTube Trực Tuyến
-			</div>
-			<div className='tutorial__subtitle'>
-				Dễ dàng tải video trên Youtube hoặc chuyển video YouTube sang
-				MP3 với ba bước đơn giản
-			</div>
+			<div className='tutorial__title'>{t('tutorial__title')}</div>
+			<div className='tutorial__subtitle'>{t('tutorial__subtitle')}</div>
 			<div className='tutorial__steps'>
 				<div className='tutorial__step'>
 					<div className='tutorial__step-icon'>
 						<BiCopy />
 					</div>
 					<div className='tutorial__step-title'>
-						BƯỚC 1: SAO CHÉP URL
+						{t('tutorial__steps.1.tutorial__step-title')}
 					</div>
 					<div className='tutorial__desc'>
-						Mở liên kết Youtube và sao chép đường dẫn video bạn muốn
-						tải về thiết bị
+						{t('tutorial__steps.1.tutorial__desc')}
 					</div>
 				</div>
 				<div className='tutorial__step'>
@@ -32,11 +29,10 @@ const Tutorial = () => {
 						<GiClick />
 					</div>
 					<div className='tutorial__step-title'>
-						BƯỚC 2: CHỌN CHẤT LƯỢNG
+						{t('tutorial__steps.2.tutorial__step-title')}
 					</div>
 					<div className='tutorial__desc'>
-						Dán URL video Youtube và nhấn "Lấy link video", chọn
-						chất lượng hoặc định dạng file tương ứng
+						{t('tutorial__steps.2.tutorial__desc')}
 					</div>
 				</div>
 				<div className='tutorial__step'>
@@ -44,11 +40,10 @@ const Tutorial = () => {
 						<AiOutlineCloudDownload />
 					</div>
 					<div className='tutorial__step-title'>
-						BƯỚC 3: TẢI VIDEO TỪ YOUTUBE HOẶC YOUTUBE TO MP3
+						{t('tutorial__steps.3.tutorial__step-title')}
 					</div>
 					<div className='tutorial__desc'>
-						Nhấn "Tải file MP3" hoặc "Tải xuống video HD/4K" để lưu
-						file trên thiết bị của bạn
+						{t('tutorial__steps.3.tutorial__desc')}
 					</div>
 				</div>
 			</div>
