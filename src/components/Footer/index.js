@@ -2,6 +2,7 @@ import React from 'react'
 import './Footer.css'
 import { Link } from 'react-router-dom'
 import { useTranslation } from 'react-i18next'
+import MessengerCustomerChat from 'react-messenger-customer-chat'
 
 const Footer = () => {
 	const { t } = useTranslation()
@@ -35,17 +36,10 @@ const Footer = () => {
 			<div className='footer__copyright'>
 				Copyright © 2022 Upgo. All rights reserved.
 			</div>
-			{/* Design by */}
-			<div className='footer__design-by'>
-				Design by{' '}
-				<a
-					href='https://www.facebook.com/vanhung.dev'
-					target='_blank'
-					rel='noreferrer'
-				>
-					VanHungNguyen
-				</a>
-			</div>
+			<MessengerCustomerChat
+				pageId='103014442260353'
+				appId='323695346239067'
+			/>
 		</footer>
 	)
 }

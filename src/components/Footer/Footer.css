@@ -38,20 +38,4 @@
 .footer__copyright {
     font-size: 1.4rem;
     color: var(--sub-color);
-    margin-bottom: 1rem;
-}
-
-.footer__design-by {
-    font-size: 1.4rem;
-    color: var(--sub-color);
-}
-
-.footer__design-by a {
-    color: var(--primary-color);
-    /* font-weight: 700; */
-    font-style: italic;
-}
-
-.footer__design-by:hover a {
-    opacity: 0.8;
 }
