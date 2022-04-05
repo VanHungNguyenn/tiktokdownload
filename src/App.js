@@ -12,7 +12,7 @@ function App() {
 				{languages.map((lang) => (
 					<Route
 						key={lang.code}
-						path={`/${lang.code}`}
+						path={`/${lang.code}/*`}
 						element={<Home lang={lang.code} />}
 					/>
 				))}

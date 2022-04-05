@@ -145,6 +145,10 @@
     border-radius: .5rem;
 }
 
+.list-file-video__item a {
+    color: #fff;
+}
+
 .list-file-video__item-title {
     font-size: 1.6rem;
 }
@@ -188,6 +192,7 @@
     display: inline-block;
     margin: 3rem auto 0;
 }
+
 
 @media screen and (max-width: 1099px) {}
 
