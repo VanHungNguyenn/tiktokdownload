@@ -8,3 +8,4 @@ ErrorMessage
 Multiple object another
 Not download all, error CORS
 Redirect route
+// "proxy": "http://localhost:3000"

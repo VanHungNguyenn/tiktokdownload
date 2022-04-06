@@ -5,17 +5,15 @@ import { useTranslation } from 'react-i18next'
 import getIdVideo from '../../utils/getIdVideo'
 import axios from 'axios'
 import { showErrorMsg } from '../../utils/notification'
-import { saveAs } from 'file-saver'
-
 import { FaDownload } from 'react-icons/fa'
 import { Tabs, Space, Spin } from 'antd'
+import { saveAs } from 'file-saver'
 
 const { TabPane } = Tabs
 
 const Loading = () => {
 	return (
 		<Space
-			// style: center
 			style={{
 				display: 'flex',
 				justifyContent: 'center',

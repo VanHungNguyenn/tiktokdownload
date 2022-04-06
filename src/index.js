@@ -1,6 +1,5 @@
 import React, { Suspense } from 'react'
 import ReactDOM from 'react-dom'
-
 import 'flag-icons/css/flag-icons.min.css'
 import './assets/css/reset.css'
 import './assets/css/index.css'
