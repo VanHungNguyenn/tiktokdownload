@@ -41,8 +41,8 @@ const PageConvertVideo = () => {
 	console.log({ watermark })
 	console.log({ withoutWatermark })
 
-	const saveFileVideo = (link) => {
-		axios
+	const saveFileVideo = async (link) => {
+		await axios
 			.get(
 				link,
 				{
@@ -86,6 +86,8 @@ const PageConvertVideo = () => {
 	const handleShowBlockDownload = async () => {
 		setVisibleBlockDownload(false)
 		setLoading(true)
+		setWatermark('')
+		setWithoutWatermark('')
 
 		const id = getIdVideo(link)
 		let response
@@ -113,22 +115,15 @@ const PageConvertVideo = () => {
 					)
 				}
 				// check watermark
-				console.log(
-					'Response: ',
-					response.data.aweme_detail.video.download_suffix_logo_addr
-				)
 				if (
 					response.data.aweme_detail.video.download_suffix_logo_addr
 				) {
-					console.log('Hehe')
 					setWatermark(
 						response.data.aweme_detail.video
 							.download_suffix_logo_addr.url_list[0]
 					)
 				}
 				if (response.data.aweme_detail.video.download_addr) {
-					console.log('Hihi')
-
 					setWatermark(
 						response.data.aweme_detail.video.download_addr
 							.url_list[0]
@@ -217,6 +212,14 @@ const PageConvertVideo = () => {
 														<FaDownload />
 														Tải về
 													</button>
+													<a
+														href={watermark}
+														download
+														target='_blank'
+														rel='noopener noreferrer'
+													>
+														Download Watermark
+													</a>
 												</div>
 												<div className='list-file-video__item'>
 													<div className='list-file-video__item-title'>
