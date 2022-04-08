@@ -130,14 +130,12 @@ const PageConvertVideo = () => {
 					)
 				}
 				// check without watermark
-				if (
-					response.data.aweme_detail.video.play_addr.url_list[0] !==
-					null
-				) {
+				if (response.data.aweme_detail.video.play_addr) {
 					setWithoutWatermark(
 						response.data.aweme_detail.video.play_addr.url_list[0]
 					)
 				}
+
 				setVisibleBlockDownload(true)
 			} else {
 				showErrorMsg('Rất tiêc, đường dẫn video không hợp lệ!')
@@ -212,14 +210,6 @@ const PageConvertVideo = () => {
 														<FaDownload />
 														Tải về
 													</button>
-													<a
-														href={watermark}
-														download
-														target='_blank'
-														rel='noopener noreferrer'
-													>
-														Download Watermark
-													</a>
 												</div>
 												<div className='list-file-video__item'>
 													<div className='list-file-video__item-title'>
